@@ -1,4 +1,4 @@
-# Spider: indexwebsite
+# Spider: indexer
 
 A basic spider which will index an entire website and download its http response body content (usually the HTML of the website but this depends on the response content-type).
 
@@ -24,7 +24,7 @@ The DATA_DIR setting we introduced in project "settings.py" module provides a co
 The scrapy docs encourage an ETL like pattern where you write a spider which extracts structured content out of this returned html and save that. However, with this spider, we are using more of a ELT approach where we are saving everything to the file system, and logging key meta data as described below.
 
 All data captured by this spider is stored on the file system under the path "DATA_DIR/<root-url-of-website>" with the following hierarchy:
-```bash
+```
 DATA_DIR
 │
 └── example.com

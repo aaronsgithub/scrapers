@@ -1,8 +1,8 @@
 # Scrapers
 
-This repository is a container for some generic web scraping spiders and related code pulled from other projects I've worked on.
+This repository is a container for some generic web scraping resources pulled from other projects I've worked on.
 
-The spiders use the Python based [Scrapy](https://docs.scrapy.org/en/latest/topics/settings.html) web scraping framework.
+The code uses the Python based [Scrapy](https://docs.scrapy.org/en/latest/topics/settings.html) web scraping framework.
 
 The codebase structure was generated with the built in Scrapy commands:
 
