@@ -53,4 +53,4 @@ Each spider in this repository is contained in its own subdirectory within the `
 
 Contents:
 
-- `indexer` a generic website indexer.
+- [`indexer`](https://github.com/aaronsgithub/scrapers/tree/main/scrapers/spiders/indexer) a generic website indexer.
